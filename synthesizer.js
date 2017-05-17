@@ -21,7 +21,6 @@ setup = () => {
 draw = () => {
   clear()
   background(0)
-
   fill(255,255,255)
   textSize(50)
   text(instructions, 40, displayHeight/2.5)

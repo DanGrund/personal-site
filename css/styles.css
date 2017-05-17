@@ -16,6 +16,14 @@ h1 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 50px;
+}
 
 #links {
   margin-top: 10vh;
@@ -27,11 +35,30 @@ h1 {
 }
 
 #projects {
-  margin-top: 15vh;
+  margin-top: 10vh;
+  width: 50%;
+  margin-bottom: 20px;
 }
 
-img {
-  width: 50px;
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  padding: 12px;
+  text-align: center;
+}
+
+.links {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#resume {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 500px) {
